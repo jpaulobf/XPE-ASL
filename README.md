@@ -12,6 +12,14 @@ sudo dnf update
 sudo dnf install postgresql16.x86_64 postgresql16-server -y
 ```
 
+## Instalar o PostgreSQL no WEB DB (para conectividade somente)
+
+```bash
+sudo dnf update
+
+sudo dnf install postgresql16.x86_64 postgresql16-server -y
+```
+
 # Remover o link para a Internet
 
 - Router Privado sem roteamento para a Internet
