@@ -72,11 +72,27 @@ insert into cars (brand, model, year) values ('ford', 'focus', 2020);
 
 ```bash
 nano /var/lib/pgsql/data/postgresql.conf
+```
 
+## Editar a linha de/para:
+
+```bash
+#listen_addresses = 'localhost'
+listen_addresses = '*'
+```
+
+```bash
 nano /var/lib/pgsql/data/pg_hba.conf
+```
 
+## Adicionar a linha:
+```bash
 host     all     all     0.0.0.0/0     md5
+```
 
+Reiniciar
+
+```bash
 sudo systemctl restart postgresql
 ```
 
