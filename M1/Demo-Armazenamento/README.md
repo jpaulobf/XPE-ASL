@@ -148,6 +148,8 @@ S3 (website, inteligent tier)
 
 
 ### Police para liberação do WebSite Estático
+
+```bash
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -160,3 +162,4 @@ S3 (website, inteligent tier)
         }
     ]
 }
+```
