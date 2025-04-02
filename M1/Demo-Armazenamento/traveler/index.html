@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Traveler</title>
+    <meta property="og:title" content="Traveler (Template 12)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Karla;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <section class="home-hero">
+          <div class="home-main1">
+            <div class="home-video1">
+              <video
+                src=""
+                poster="public/Videos/hero-cover1-1500h.png"
+                class="home-video2"
+              ></video>
+              <div class="home-tint1"></div>
+            </div>
+            <div class="home-content10">
+              <header class="home-header10">
+                <header data-thq="thq-navbar" class="home-navbar">
+                  <img alt="logo" src="public/logo.svg" class="home-logo1" />
+                  <div data-thq="thq-burger-menu" class="home-menu">
+                    <div class="home-links1">
+                      <a href="#features" class="home-link10 link">Features</a>
+                      <span class="link">How it works</span>
+                      <span class="link">Prices</span>
+                      <a href="#find" class="home-link11 link">Contact</a>
+                    </div>
+                    <button class="home-hamburger button">
+                      <svg viewBox="0 0 1024 1024" class="home-icon10">
+                        <path
+                          d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+                    <div
+                      data-thq="thq-mobile-menu-nav"
+                      data-role="Nav"
+                      class="home-nav1"
+                    >
+                      <div class="home-container2">
+                        <img
+                          alt="logo"
+                          src="public/logo.svg"
+                          class="home-logo2"
+                        />
+                        <div data-thq="thq-close-menu" class="home-menu-close">
+                          <svg viewBox="0 0 1024 1024" class="home-icon12">
+                            <path
+                              d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <nav
+                        data-thq="thq-mobile-menu-nav-links"
+                        data-role="Nav"
+                        class="home-nav2"
+                      >
+                        <span class="home-text12">About</span>
+                        <span class="home-text13">Features</span>
+                        <span class="home-text14">Pricing</span>
+                        <span class="home-text15">Team</span>
+                        <span class="home-text16">Blog</span>
+                      </nav>
+                      <div class="home-container3">
+                        <button class="home-login button">Login</button>
+                        <button class="button">Register</button>
+                      </div>
+                    </div>
+                    <div class="home-icon-group">
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="home-icon14"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path></svg
+                      ><svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="home-icon16"
+                      >
+                        <path
+                          d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                        ></path></svg
+                      ><svg
+                        viewBox="0 0 602.2582857142856 1024"
+                        class="home-icon18"
+                      >
+                        <path
+                          d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </header>
+              </header>
+              <div class="home-center">
+                <div class="home-heading10">
+                  <h1 class="home-header11">See the world like a local</h1>
+                  <p class="home-caption10">
+                    Find a local guide consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt.
+                  </p>
+                </div>
+                <div class="home-border">
+                  <div class="home-filter">
+                    <img
+                      alt="image"
+                      src="public/Icons/location.svg"
+                      class="home-image1"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Destination"
+                      class="home-textinput1 input"
+                    />
+                    <input
+                      type="date"
+                      placeholder="Date"
+                      class="home-textinput2 input"
+                    />
+                    <input
+                      type="number"
+                      placeholder="Group size"
+                      class="home-textinput3 input"
+                    />
+                    <div class="home-search">
+                      <img
+                        alt="image"
+                        src="public/Icons/search.svg"
+                        class="home-icon20"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="features" class="home-feaures">
+            <div class="home-content11">
+              <feature-wrapper class="feature-wrapper">
+                <!--Feature component-->
+                <div class="feature-feature">
+                  <div class="feature-heading">
+                    <img
+                      alt="image"
+                      src="public/Icons/thumbs-up.svg"
+                      class="feature-icon"
+                    />
+                    <h3 class="feature-header">
+                      <span>Hand Picked Guides</span>
+                    </h3>
+                  </div>
+                  <p class="feature-description">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </span>
+                  </p>
+                </div>
+              </feature-wrapper>
+              <feature-wrapper-8sie class="feature-wrapper-8sie">
+                <!--Feature component-->
+                <div class="feature-feature1">
+                  <div class="feature-heading1">
+                    <img
+                      alt="image"
+                      src="public/Icons/headset.svg"
+                      class="feature-icon1"
+                    />
+                    <h3 class="feature-header1"><span>24/7 Support</span></h3>
+                  </div>
+                  <p class="feature-description1">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </span>
+                  </p>
+                </div>
+              </feature-wrapper-8sie>
+              <feature-wrapper-4ace class="feature-wrapper-4ace">
+                <!--Feature component-->
+                <div class="feature-feature2">
+                  <div class="feature-heading2">
+                    <img
+                      alt="image"
+                      src="public/Icons/person.svg"
+                      class="feature-icon2"
+                    />
+                    <h3 class="feature-header2"><span>Private Tours</span></h3>
+                  </div>
+                  <p class="feature-description2">
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </span>
+                  </p>
+                </div>
+              </feature-wrapper-4ace>
+            </div>
+          </div>
+        </section>
+        <section id="tours" class="home-quick-view">
+          <div class="home-main2">
+            <div class="home-heading11">
+              <h2 class="home-header12">See the world like a local</h2>
+              <p class="home-caption11">
+                Lorem ipsum dolor sit consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+            <div class="home-sorting">
+              <button class="home-option-primary button">All</button>
+              <button class="button-option button">Popular</button>
+              <button class="button-option button">Featured</button>
+              <button class="button-option button">Trending</button>
+            </div>
+          </div>
+          <div class="home-offers">
+            <a href="index.html">
+              <div class="home-offer-container1">
+                <offer-wrapper class="offer-wrapper">
+                  <!--Offer component-->
+                  <div class="offer-offer">
+                    <img
+                      alt="image"
+                      src="public/Offers/offers-11-1500w.png"
+                      class="offer-image"
+                    />
+                    <div class="offer-content">
+                      <div class="offer-details">
+                        <span class="offer-text1">
+                          <span>Crete, Greece</span>
+                        </span>
+                        <span class="offer-text2">
+                          <span>3 Local guides</span>
+                        </span>
+                      </div>
+                      <span class="offer-text3">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </offer-wrapper>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container2">
+                <offer-wrapper-yujc class="offer-wrapper-yujc">
+                  <!--Offer component-->
+                  <div class="offer-offer1">
+                    <img
+                      alt="image"
+                      src="public/Offers/offers-21-1500w.png"
+                      class="offer-image1"
+                    />
+                    <div class="offer-content1">
+                      <div class="offer-details1">
+                        <span class="offer-text4">
+                          <span>Barcelona, Spain</span>
+                        </span>
+                        <span class="offer-text5">
+                          <span>54 Local guides</span>
+                        </span>
+                      </div>
+                      <span class="offer-text6">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </offer-wrapper-yujc>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container3">
+                <offer-wrapper-py6z class="offer-wrapper-py6z">
+                  <!--Offer component-->
+                  <div class="offer-offer2">
+                    <img
+                      alt="image"
+                      src="public/Offers/offers-31-1500w.png"
+                      class="offer-image2"
+                    />
+                    <div class="offer-content2">
+                      <div class="offer-details2">
+                        <span class="offer-text7">
+                          <span>Machu Picchu, Peru</span>
+                        </span>
+                        <span class="offer-text8">
+                          <span>34 Local Guides</span>
+                        </span>
+                      </div>
+                      <span class="offer-text9">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </offer-wrapper-py6z>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container4">
+                <offer-wrapper-kafd class="offer-wrapper-kafd">
+                  <!--Offer component-->
+                  <div class="offer-offer3">
+                    <img
+                      alt="image"
+                      src="public/Offers/offers-41-1500w.png"
+                      class="offer-image3"
+                    />
+                    <div class="offer-content3">
+                      <div class="offer-details3">
+                        <span class="offer-text10">
+                          <span>Doha, Quatar</span>
+                        </span>
+                        <span class="offer-text11">
+                          <span>1 Local guide</span>
+                        </span>
+                      </div>
+                      <span class="offer-text12">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </offer-wrapper-kafd>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container5">
+                <offer-wrapper-xngi class="offer-wrapper-xngi">
+                  <!--Offer component-->
+                  <div class="offer-offer4">
+                    <img
+                      alt="image"
+                      src="public/Offers/offers-51-1500w.png"
+                      class="offer-image4"
+                    />
+                    <div class="offer-content4">
+                      <div class="offer-details4">
+                        <span class="offer-text13">
+                          <span>Rhodes, Greece</span>
+                        </span>
+                        <span class="offer-text14">
+                          <span>6 Local guides</span>
+                        </span>
+                      </div>
+                      <span class="offer-text15">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </offer-wrapper-xngi>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container6">
+                <offer-wrapper-9j94 class="offer-wrapper-9j94">
+                  <!--Offer component-->
+                  <div class="offer-offer5">
+                    <img
+                      alt="image"
+                      src="public/Offers/offers-61-1500w.png"
+                      class="offer-image5"
+                    />
+                    <div class="offer-content5">
+                      <div class="offer-details5">
+                        <span class="offer-text16">
+                          <span>New York, USA</span>
+                        </span>
+                        <span class="offer-text17">
+                          <span>132 Local guides</span>
+                        </span>
+                      </div>
+                      <span class="offer-text18">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </offer-wrapper-9j94>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container7">
+                <offer-wrapper-pu0q class="offer-wrapper-pu0q">
+                  <!--Offer component-->
+                  <div class="offer-offer6">
+                    <img
+                      alt="image"
+                      src="public/Offers/offers-71-1500w.png"
+                      class="offer-image6"
+                    />
+                    <div class="offer-content6">
+                      <div class="offer-details6">
+                        <span class="offer-text19">
+                          <span>Doha, Quatar</span>
+                        </span>
+                        <span class="offer-text20">
+                          <span>1 Local guide</span>
+                        </span>
+                      </div>
+                      <span class="offer-text21">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </offer-wrapper-pu0q>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container8">
+                <offer-wrapper-wh24 class="offer-wrapper-wh24">
+                  <!--Offer component-->
+                  <div class="offer-offer7">
+                    <img
+                      alt="image"
+                      src="public/Offers/offers-81-1500w.png"
+                      class="offer-image7"
+                    />
+                    <div class="offer-content7">
+                      <div class="offer-details7">
+                        <span class="offer-text22">
+                          <span>Rhodes, Greece</span>
+                        </span>
+                        <span class="offer-text23">
+                          <span>6 Local guides</span>
+                        </span>
+                      </div>
+                      <span class="offer-text24">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </offer-wrapper-wh24>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container9">
+                <offer-wrapper-s06j class="offer-wrapper-s06j">
+                  <!--Offer component-->
+                  <div class="offer-offer8">
+                    <img
+                      alt="image"
+                      src="public/Offers/offers-91-1500w.png"
+                      class="offer-image8"
+                    />
+                    <div class="offer-content8">
+                      <div class="offer-details8">
+                        <span class="offer-text25">
+                          <span>New York, USA</span>
+                        </span>
+                        <span class="offer-text26">
+                          <span>132 Local guides</span>
+                        </span>
+                      </div>
+                      <span class="offer-text27">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </offer-wrapper-s06j>
+              </div>
+            </a>
+          </div>
+          <div class="home-pagination">
+            <button class="home-previous1 button-option button">
+              <svg viewBox="0 0 1024 1024" class="home-icon21">
+                <path d="M658 708l-60 60-256-256 256-256 60 60-196 196z"></path>
+              </svg>
+              <span class="home-text17">Previous</span>
+            </button>
+            <div class="home-pages">
+              <div class="home-primary">
+                <div class="home-number-current page-current page">
+                  <span class="home-text18">1</span>
+                </div>
+                <div class="page"><span class="home-text19">2</span></div>
+                <div class="page home-number2">
+                  <span class="home-text20">3</span>
+                </div>
+              </div>
+              <img alt="image" src="public/Icons/more.svg" class="home-more" />
+              <div class="page"><span class="home-text21">12</span></div>
+            </div>
+            <button class="home-next1 button-option button">
+              <span class="home-text22">Next</span>
+              <svg viewBox="0 0 1024 1024" class="home-icon23">
+                <path
+                  d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </section>
+        <section class="home-testimonials">
+          <div class="home-content12">
+            <div class="home-heading12">
+              <span class="home-title">Customer testimonial</span>
+              <p class="home-quote">
+                “We’ve used Traveler to lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.”
+              </p>
+            </div>
+            <div class="home-details">
+              <div class="home-author">
+                <img
+                  alt="image"
+                  src="public/Avatar/quote-200h.png"
+                  class="home-avatar"
+                />
+                <span class="home-name">Michael McDonald</span>
+              </div>
+              <div class="home-controls">
+                <div class="page"><span class="home-text23">&lt;</span></div>
+                <div class="home-next2 page">
+                  <span class="home-text24">&lt;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works" class="home-highlights">
+          <div class="home-highlight1">
+            <div class="home-content13">
+              <div class="home-heading13">
+                <h2 class="home-header13">
+                  Excepteur sint occaecat cupidatat non proident
+                </h2>
+                <p class="home-caption12">
+                  Lorem ipsum dolor sit consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt.
+                </p>
+              </div>
+              <button class="button-arrow button">
+                <span class="home-text25">Read more</span>
+                <span class="home-text26">&gt;</span>
+              </button>
+            </div>
+            <div class="home-image2">
+              <img
+                alt="image"
+                src="public/Highlights/highlight-1-1500w.png"
+                class="home-image3"
+              />
+              <div class="home-rectangle"></div>
+            </div>
+          </div>
+          <div class="home-highlight2">
+            <div class="home-image4">
+              <img
+                alt="image"
+                src="public/Highlights/highlight-2-1500w.png"
+                class="home-image5"
+              />
+            </div>
+            <div class="home-content14">
+              <div class="home-heading14">
+                <h2 class="home-header14">
+                  Excepteur sint occaecat cupidatat non proident
+                </h2>
+                <p class="home-caption13">
+                  <span>
+                    Lorem ipsum dolor sit consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </span>
+                  <br />
+                </p>
+              </div>
+              <button class="home-find1 button">Find a local guide</button>
+            </div>
+          </div>
+        </section>
+        <section id="destinations" class="home-destinations">
+          <div class="home-video-details">
+            <div class="home-heading15">
+              <h2 class="home-header15">Spotlight destinations</h2>
+              <p class="home-caption14">
+                Lorem ipsum dolor sit consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+            <div class="home-video-wrapper">
+              <div class="home-tint2">
+                <img
+                  alt="image"
+                  src="public/Icons/play.svg"
+                  class="home-image6"
+                />
+              </div>
+              <video
+                src=""
+                poster="public/Videos/spotlight-cover1-1500w.png"
+                class="home-video3"
+              ></video>
+            </div>
+          </div>
+          <p class="home-caption15">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto.
+          </p>
+          <div class="home-list1">
+            <a href="index.html" class="home-navlink19">
+              <div class="home-location-wrapper1">
+                <location-wrapper class="location-wrapper">
+                  <!--Location component-->
+                  <div class="location-item">
+                    <img
+                      alt="image"
+                      src="public/Destinations/destination-1-400h.png"
+                      class="location-background"
+                    />
+                    <div class="location-content">
+                      <span class="location-location">
+                        <span>Tokyo, Japan</span>
+                      </span>
+                    </div>
+                  </div>
+                </location-wrapper>
+              </div>
+            </a>
+            <a href="index.html" class="home-navlink20">
+              <div class="home-location-wrapper2">
+                <location-wrapper-i1ww class="location-wrapper-i1ww">
+                  <!--Location component-->
+                  <div class="location-item1">
+                    <img
+                      alt="image"
+                      src="public/Destinations/destination-2-400h.png"
+                      class="location-background1"
+                    />
+                    <div class="location-content1">
+                      <span class="location-location1">
+                        <span>Paris, France</span>
+                      </span>
+                    </div>
+                  </div>
+                </location-wrapper-i1ww>
+              </div>
+            </a>
+            <a href="index.html" class="home-navlink21">
+              <div class="home-location-wrapper3">
+                <location-wrapper-znae class="location-wrapper-znae">
+                  <!--Location component-->
+                  <div class="location-item2">
+                    <img
+                      alt="image"
+                      src="public/Destinations/destination-3-400h.png"
+                      class="location-background2"
+                    />
+                    <div class="location-content2">
+                      <span class="location-location2">
+                        <span>Bruges, Belgium</span>
+                      </span>
+                    </div>
+                  </div>
+                </location-wrapper-znae>
+              </div>
+            </a>
+            <a href="index.html" class="home-navlink22">
+              <div class="home-location-wrapper4">
+                <location-wrapper-ljh1 class="location-wrapper-ljh1">
+                  <!--Location component-->
+                  <div class="location-item3">
+                    <img
+                      alt="image"
+                      src="public/Destinations/destination-4-400h.png"
+                      class="location-background3"
+                    />
+                    <div class="location-content3">
+                      <span class="location-location3">
+                        <span>London, UK</span>
+                      </span>
+                    </div>
+                  </div>
+                </location-wrapper-ljh1>
+              </div>
+            </a>
+          </div>
+          <button class="home-find2 button">Find a local guide</button>
+        </section>
+        <section id="guides" class="home-guides">
+          <div class="home-heading16">
+            <h2 class="home-header16">Meet our guides</h2>
+            <p class="home-caption16">
+              Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt.
+            </p>
+          </div>
+          <div class="home-list2">
+            <a href="index.html">
+              <div class="home-guide-wrapper1">
+                <guide-wrapper class="guide-wrapper">
+                  <!--Guide component-->
+                  <div class="guide-guide guide">
+                    <img
+                      alt="image"
+                      src="public/Guides/guide-1.png"
+                      class="guide-portrait"
+                    />
+                    <div class="guide-details">
+                      <h3 class="guide-name"><span>Miura Avaron</span></h3>
+                      <span class="guide-location">
+                        <span>Tokyo, Japan</span>
+                      </span>
+                    </div>
+                  </div>
+                </guide-wrapper>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-guide-wrapper2">
+                <guide-wrapper-k902
+                  class="guide-wrapper-k902"
+                  rootclassname="guideundefined"
+                >
+                  <!--Guide component-->
+                  <div class="guide-guide1 guideroot-class-name2">
+                    <img
+                      alt="image"
+                      src="public/Guides/guide-2.png"
+                      class="guide-portrait1"
+                    />
+                    <div class="guide-details1">
+                      <h3 class="guide-name1"><span>Miura Avaron</span></h3>
+                      <span class="guide-location1">
+                        <span>Paris, France</span>
+                      </span>
+                    </div>
+                  </div>
+                </guide-wrapper-k902>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-guide-wrapper3">
+                <guide-wrapper-f9ur
+                  class="guide-wrapper-f9ur"
+                  rootclassname="guideundefined"
+                >
+                  <!--Guide component-->
+                  <div class="guide-guide2 guideroot-class-name">
+                    <img
+                      alt="image"
+                      src="public/Guides/guide-3.png"
+                      class="guide-portrait2"
+                    />
+                    <div class="guide-details2">
+                      <h3 class="guide-name2"><span>Miura Avaron</span></h3>
+                      <span class="guide-location2">
+                        <span>Bruges, Belgium</span>
+                      </span>
+                    </div>
+                  </div>
+                </guide-wrapper-f9ur>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-guide-wrapper4">
+                <guide-wrapper-qvfh
+                  class="guide-wrapper-qvfh"
+                  rootclassname="guideundefined"
+                >
+                  <!--Guide component-->
+                  <div class="guide-guide3 guideroot-class-name1">
+                    <img
+                      alt="image"
+                      src="public/Guides/guide-4.png"
+                      class="guide-portrait3"
+                    />
+                    <div class="guide-details3">
+                      <h3 class="guide-name3"><span>Miura Avaron</span></h3>
+                      <span class="guide-location3">
+                        <span>London, UK</span>
+                      </span>
+                    </div>
+                  </div>
+                </guide-wrapper-qvfh>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="home-articles">
+          <div id="articles" class="home-content15">
+            <div class="home-heading17">
+              <h2 class="home-header17">
+                Excepteur sint occaecat cupidatat non proident
+              </h2>
+              <p class="home-caption17">
+                Lorem ipsum dolor sit consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+            <div class="home-list3">
+              <div class="home-row1">
+                <article-wrapper
+                  class="article-wrapper"
+                  rootclassname="articleundefined"
+                >
+                  <!--Article component-->
+                  <div class="article-article articleroot-class-name1">
+                    <img
+                      alt="image"
+                      src="public/Articles/articles-11-1500w.png"
+                      class="article-image"
+                    />
+                    <div class="article-content">
+                      <div class="article-heading">
+                        <h2 class="article-header">
+                          <span>Understand your customers</span>
+                        </h2>
+                        <p class="article-description">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                          </span>
+                        </p>
+                      </div>
+                      <button class="button-arrow button">
+                        <span class="article-text1">Read more</span>
+                        <span class="article-text2">&gt;</span>
+                      </button>
+                    </div>
+                  </div>
+                </article-wrapper>
+                <article-wrapper-fdr8
+                  class="article-wrapper-fdr8"
+                  rootclassname="articleundefined"
+                >
+                  <!--Article component-->
+                  <div class="article-article1 articleroot-class-name">
+                    <img
+                      alt="image"
+                      src="public/Articles/articles-21-1500w.png"
+                      class="article-image1"
+                    />
+                    <div class="article-content1">
+                      <div class="article-heading1">
+                        <h2 class="article-header1">
+                          <span>Understand your customers</span>
+                        </h2>
+                        <p class="article-description1">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                          </span>
+                        </p>
+                      </div>
+                      <button class="button-arrow button">
+                        <span class="article-text3">Read more</span>
+                        <span class="article-text4">&gt;</span>
+                      </button>
+                    </div>
+                  </div>
+                </article-wrapper-fdr8>
+              </div>
+              <div class="home-row2">
+                <article-wrapper-9bk3
+                  class="article-wrapper-9bk3"
+                  rootclassname="articleundefined"
+                >
+                  <!--Article component-->
+                  <div class="article-article2 articleroot-class-name2">
+                    <img
+                      alt="image"
+                      src="public/Articles/articles-31-1500w.png"
+                      class="article-image2"
+                    />
+                    <div class="article-content2">
+                      <div class="article-heading2">
+                        <h2 class="article-header2">
+                          <span>Understand your customers</span>
+                        </h2>
+                        <p class="article-description2">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                          </span>
+                        </p>
+                      </div>
+                      <button class="button-arrow button">
+                        <span class="article-text5">Read more</span>
+                        <span class="article-text6">&gt;</span>
+                      </button>
+                    </div>
+                  </div>
+                </article-wrapper-9bk3>
+                <article-wrapper-im95
+                  class="article-wrapper-im95"
+                  rootclassname="articleundefined"
+                >
+                  <!--Article component-->
+                  <div class="article-article3 articleroot-class-name3">
+                    <img
+                      alt="image"
+                      src="public/Articles/articles-41-1500w.png"
+                      class="article-image3"
+                    />
+                    <div class="article-content3">
+                      <div class="article-heading3">
+                        <h2 class="article-header3">
+                          <span>Understand your customers</span>
+                        </h2>
+                        <p class="article-description3">
+                          <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                          </span>
+                        </p>
+                      </div>
+                      <button class="button-arrow button">
+                        <span class="article-text7">Read more</span>
+                        <span class="article-text8">&gt;</span>
+                      </button>
+                    </div>
+                  </div>
+                </article-wrapper-im95>
+              </div>
+              <div class="home-row3">
+                <button class="home-read-all button-option button">
+                  Read all articles
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-faq">
+          <div id="faqs" class="home-content16">
+            <div class="home-heading18">
+              <h2 class="home-header18">Frequently asked questions</h2>
+              <p class="home-caption18">
+                Lorem ipsum dolor sit consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+            <div class="home-accordion1">
+              <div
+                data-role="accordion-container"
+                class="accordion home-element1"
+              >
+                <div class="home-content17">
+                  <span class="home-header19">
+                    Lorem ipsum dolor sit ametetur elit?
+                  </span>
+                  <span data-role="accordion-content" class="home-description1">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </span>
+                </div>
+                <div class="home-icon-container1">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon25"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon27"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                data-role="accordion-container"
+                class="home-element2 accordion"
+              >
+                <div class="home-content18">
+                  <span class="home-header20">
+                    Excepteur sint occaecat cupidatat non sunt in culpa qui
+                    officia deserunt mollit anim id est laborum?
+                  </span>
+                  <span data-role="accordion-content" class="home-description2">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </span>
+                </div>
+                <div class="home-icon-container2">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon29"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon31"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                data-role="accordion-container"
+                class="home-element3 accordion"
+              >
+                <div class="home-content19">
+                  <span class="home-header21">
+                    Tempor incididunt ut labore et dolore magna aliquat enim ad
+                    minim?
+                  </span>
+                  <span data-role="accordion-content" class="home-description3">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </span>
+                </div>
+                <div class="home-icon-container3">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon33"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon35"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                data-role="accordion-container"
+                class="home-element4 accordion"
+              >
+                <div class="home-content20">
+                  <span class="home-header22">
+                    Lorem ipsum dolor sit ametetur elit?
+                  </span>
+                  <span data-role="accordion-content" class="home-description4">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </span>
+                </div>
+                <div class="home-icon-container4">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon37"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon39"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                data-role="accordion-container"
+                class="home-element5 accordion"
+              >
+                <div class="home-content21">
+                  <span class="home-header23">
+                    Incididunt ut labore et dolore?
+                  </span>
+                  <span data-role="accordion-content" class="home-description5">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo.
+                  </span>
+                </div>
+                <div class="home-icon-container5">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon41"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon43"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="find" class="home-find3">
+          <div class="home-heading19">
+            <h2 class="home-header24">Find a local guide now</h2>
+            <p class="home-caption19">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <button class="home-find4 button">Find a local guide</button>
+        </section>
+        <section class="home-footer">
+          <div class="home-content22">
+            <div class="home-main3">
+              <div class="home-branding">
+                <div class="home-heading20">
+                  <img alt="image" src="public/logo.svg" class="home-image7" />
+                  <p class="home-caption20">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore
+                  </p>
+                </div>
+              </div>
+              <div class="home-links2">
+                <div class="home-items1">
+                  <button class="home-link12 button button-clean">
+                    Find a guide
+                  </button>
+                  <a
+                    href="#destinations"
+                    class="home-link13 button button-clean"
+                  >
+                    Find a tour
+                  </a>
+                  <a
+                    href="#destinations"
+                    class="home-link14 button button-clean"
+                  >
+                    Visit a city
+                  </a>
+                  <a
+                    href="#destinations"
+                    class="home-link15 button button-clean"
+                  >
+                    Visit a country
+                  </a>
+                </div>
+                <div class="home-items2">
+                  <a
+                    href="#how-it-works"
+                    class="home-link16 button button-clean"
+                  >
+                    How it works
+                  </a>
+                  <button class="home-link17 button button-clean">
+                    Cancelation policy
+                  </button>
+                  <button class="home-link18 button button-clean">
+                    Local guides
+                  </button>
+                  <button class="home-link19 button button-clean">
+                    Affiliate
+                  </button>
+                </div>
+                <div class="home-items3">
+                  <button class="home-link20 button button-clean">
+                    About us
+                  </button>
+                  <button class="home-link21 button button-clean">Blog</button>
+                  <button class="home-link22 button button-clean">
+                    Partners
+                  </button>
+                  <button class="home-link23 button button-clean">Faqs</button>
+                  <button class="home-link24 button button-clean">
+                    Careers
+                  </button>
+                </div>
+              </div>
+            </div>
+            <span class="home-copyright">
+              © 2022 Character. All Rights Reserved.
+            </span>
+          </div>
+        </section>
+        <div>
+          <div class="home-container5">
+            <script>
+              function initAccordion() {
+                /*
+                Accordion - Code Embed
+                */
+                const accordionContainers = document.querySelectorAll(
+                  '[data-role='accordion-container']'
+                ); // All accordion containers
+                const accordionContents = document.querySelectorAll(
+                  '[data-role='accordion-content']'
+                ); // All accordion content
+                const accordionIconsClosed = document.querySelectorAll(
+                  '[data-role='accordion-icon-closed']'
+                ); // All accordion closed icons
+                const accordionIconsOpen = document.querySelectorAll(
+                  '[data-role='accordion-icon-open']'
+                ); // All accordion open icons
+
+                accordionContents.forEach((accordionContent) => {
+                  accordionContent.style.display = 'none'; //Hides all accordion contents
+                });
+
+                accordionIconsClosed.forEach((icon) => {
+                  icon.style.display = 'flex';
+                });
+
+                accordionIconsOpen.forEach((icon) => {
+                  icon.style.display = 'none';
+                });
+
+                accordionContainers.forEach((accordionContainer, index) => {
+                  if (accordionContainer.classList.contains('initialised')) {
+                    return;
+                  }
+
+                  accordionContainer.classList.add('initiased');
+
+                  accordionContainer.addEventListener('click', () => {
+                    if (accordionContents[index].style.display === 'flex') {
+                      // If the accordion is already open, close it
+                      accordionContents[index].style.display = 'none';
+                      accordionIconsClosed[index].style.display = 'flex';
+                      accordionIconsOpen[index].style.display = 'none';
+                    } else {
+                      // If the accordion is closed, open it
+                      accordionContents.forEach((accordionContent) => {
+                        accordionContent.style.display = 'none'; //Hides all accordion contents
+                      });
+
+                      accordionIconsClosed.forEach((accordionIcon) => {
+                        accordionIcon.style.display = 'flex'; // Resets all icon transforms to 0deg (default)
+                      });
+
+                      accordionIconsOpen.forEach((accordionIcon) => {
+                        accordionIcon.style.display = 'none';
+                      });
+
+                      accordionContents[index].style.display = 'flex'; // Shows accordion content
+                      accordionIconsClosed[index].style.display = 'none'; // Rotates accordion icon 180deg
+                      accordionIconsOpen[index].style.display = 'flex';
+                    }
+                  });
+                });
+              }
+
+              initAccordion();
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

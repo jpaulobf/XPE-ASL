@@ -1,0 +1,55 @@
+.guide-guide {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.guide-portrait {
+  flex: 1;
+  width: 100%;
+  object-fit: cover;
+}
+ 
+.guide-details {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.guide-name {
+  color: #352B2A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.guide-location {
+  font-style: normal;
+  font-weight: 500;
+}
+ 
+.guideroot-class-name {
+  flex: 0 0 auto;
+}
+ 
+.guideroot-class-name1 {
+  flex: 0 0 auto;
+}
+ 
+.guideroot-class-name2 {
+  flex: 0 0 auto;
+}
+ 
+@media(max-width: 767px) {
+  .guide-guide {
+    gap: var(--dl-layout-space-unit);
+  }
+  .guide-details {
+    gap: 4px;
+  }
+}
