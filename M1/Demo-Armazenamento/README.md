@@ -25,6 +25,12 @@ Veja onde o disco foi montado (normalmente em /dev/sdc):
 fdisk -l
 ```
 
+Informações dos discos
+
+```bash
+lsblk
+```
+
 Crie a pasta que queira destinar o disco:
 
 ```bash
