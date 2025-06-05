@@ -51,6 +51,13 @@ Monte o disco:
 mount /dev/sdc1 /meudisco
 ```
 
+Valide se o disco está montado com o comando df:
+
+```bash
+cd /meudisco
+df -h .
+```
+
 ## Criação da Azure Storage Account
 
 - Configs
